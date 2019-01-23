@@ -31,15 +31,15 @@
 
     <script type="text/javascript" language="javascript" src="https://reactome.org/FireworksJs/fireworks/fireworks.nocache.js"></script>
    
-    <div id="fireworksHolder"></div>
+   
     
     <script>
          //Creating the Reactome pathways overview widget
     function onReactomeFireworksReady(){  //This function is automatically called when the widget code is ready to be used
         var fireworks = Reactome.Fireworks.create({
             "placeHolder" : "fireworksHolder",
-            "width" : 930,
-            "height" : 500
+            "width" : 1000,
+            "height" : 800
         });
 
         //Adding different listeners
@@ -61,9 +61,12 @@
 
 
 </head>
+    
+    
+    
 <body>
 
-
+ <div id="fireworksHolder"></div>
 
 <!--About Us -->
 
